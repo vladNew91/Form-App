@@ -1,0 +1,75 @@
+.container {
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    margin: auto;
+    width: 400px;
+}
+
+.gradiendBorder {
+    background: linear-gradient(#0C102D, #0C102D) padding-box,
+        linear-gradient(180deg, #15BFFDB2, #9C37FD) border-box;
+}
+
+.title {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.inputsBlock {
+    margin: 24px auto;
+}
+
+.inputMargin {
+    margin: 16px 0;
+}
+
+.btnSend {
+    background: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+    border-radius: 8px;
+    width: 100%;
+    padding: 24px 32px;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #0A1482;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.btnSend:hover {
+    color: #3B48D0;
+}
+
+.btnSend:active {
+    color: #FFFFFF;
+}
+
+.btnSend:disabled {
+    opacity: 0.4;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 320px;
+    }
+    .title {
+        font-size: 55px;
+    }
+}

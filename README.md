@@ -5,9 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the server:
 
 ```
-
 yarn server
-
 ```
 
 The server for interacting with the API will be running on http:localhost:3004
@@ -28,9 +26,7 @@ To create contact, use a POST request to http:localhost:3004/feedback
 First, run the development server:
 
 ```
-
 yarn dev
-
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

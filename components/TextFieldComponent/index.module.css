@@ -1,0 +1,38 @@
+.textField {
+    padding: 24px;
+    width: 100%;
+    height: 70px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.textField::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.textFieldDefault {
+    background: #ffffff0d;
+    border: 1px solid #15BFFD;
+}
+
+.textFieldError {
+    background: #ffa5a533;
+    border: 1px solid #FD4646;
+}
+
+.textField::-webkit-input-placeholder {
+    color: #A2CBFB;
+}
+
+.textField:focus::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+.textFieldError::-webkit-input-placeholder {
+    color: #ffffff;
+}
